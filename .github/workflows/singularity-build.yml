@@ -8,4 +8,4 @@ jobs:
       - uses: eWaterCycle/setup-singularity@v5
         with:
           singularity-version: 3.6.4
-      - run: sudo -E singularity build test.sif Singularity
+      - run: sudo singularity -E build test.sif Singularity
